@@ -15,8 +15,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 file(GLOB sub_dir RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/*)
 
 # Add executable
-add_executable(${PROJECT_NAME} src/main.cpp
-)
+add_executable(${PROJECT_NAME} src/main.cpp)
 
 # Add subdirectory and include
 foreach(DIR ${sub_dir})
